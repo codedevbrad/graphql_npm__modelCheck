@@ -1,0 +1,17 @@
+{
+  "name": "graphql-testing-library",
+  "version": "1.0.0",
+  "description": "testing library for db and graphql models",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "graphql": "^15.3.0",
+    "graphql-iso-date": "^3.6.1",
+    "jest": "^26.1.0",
+    "mongoose": "^5.9.25"
+  }
+}
