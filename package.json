@@ -4,14 +4,17 @@
   "description": "testing library for db and graphql models",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "test": "jest ./tests" , 
+    "debug": "node debug.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "graphql": "^15.3.0",
     "graphql-iso-date": "^3.6.1",
-    "jest": "^26.1.0",
     "mongoose": "^5.9.25"
+  },
+  "devDependencies": {
+    "jest": "^29.0.3"
   }
 }
