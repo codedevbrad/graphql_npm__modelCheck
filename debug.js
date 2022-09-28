@@ -15,8 +15,8 @@ const Schema_QL = new GraphQLObjectType ({
     name: 'tables' ,
     fields: () => ({
         id:           { type: GraphQLString  } ,
-        bookedName:   { type: GraphQLString  } ,
-        tableParty:   { type: GraphQLString  } ,
+        bookedGame:   { type: GraphQLString  } ,
+        tableParty:   { type: GraphQLDate  } ,
         tableTime:    { type: GraphQLDate    }
     })
 });
